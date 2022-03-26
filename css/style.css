@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.logo {
+  max-width: 5vh;
+  max-height: 5vh;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navscroll {
+  transition: background-color 500ms;
+}
+
+.ancla:before {
+  display: block;
+  content: " ";
+  height: 56px;
+  margin-top: -56px;
+  visibility: hidden;
+}
+
+.carousel-inner .carousel-item {
+  height: 100vh;
+}
+
+.carousel-inner .carousel-item img {
+  height: 100%;
+  filter: grayscale(0);
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.card {
+  height: 1200px;
+  padding: 0px;
+  border: 0;
+}
+
+.card img {
+  height: 100%;
+  filter: grayscale(1);
+  object-fit: cover;
+}
+
+.card-entradas {
+  background-color: rgba(228, 228, 228, 0.507);
+}
+
+.col img {
+  float: left;
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+.card-secundaria {
+  background-color: rgba(228, 228, 228, 0.507);
+}
+
+.card .card-title {
+  font-size: 30px;
+}
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-card {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* estilos contactos */
+
+#mapa {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.container .wrap .box #textocontacto1 {
+  justify-content: center;
+  text-align: center;
+  font: bolder;
+  font-size: 100px;
+}
+
+.container .wrap .box #textocontacto2 {
+  justify-content: center;
+  text-align: center;
+  font-size: medium;
+}
+
+#centro3 {
+  text-align: center;
+  justify-content: center;
+}
+
+#izquierda {
+  position: relative;
+  right: -150px;
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+  border: 0px solid;
+  float: left;
+}
+
+.texto-contacto {
+  text-align: left;
+}
+
+.email-contacto {
+  color: #848484;
+  text-decoration: none;
+}
+
+.email-contacto:hover {
+  text-decoration: underline;
+}
+
+#derecha {
+  width: 490px;
+  border: 0px solid;
+  height: auto;
+  overflow: hidden;
+  float: right;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+textarea {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.nombre-mensaje {
+  width: 95%;
+}
+
+.email-asunto {
+  width: 45%;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background: #0489b1;
+  color: #fff;
+  border: 1px solid #086a87;
+  border-radius: 5px;
+}
+
+/* estilos nosotros */
+
+h1 {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.listas {
+  padding: 15px;
+  margin: 15px;
+}
+
+p {
+  margin: 10px;
+  padding: 10px;
+}
+
+.contenedor {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.contenedor .card1 {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.card-title {
+  display: flex;
+  padding-top: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* whatsapp  */
+
+.whatsapp {
+  position: fixed;
+  bottom: 5px;
+  right: 0;
+  width: 80px;
+  z-index: 2;
+}
+
+.whatsapp img {
+  width: 80%;
+}
+/* footer  */
+footer {
+  background-image: none;
+  margin-top: 20px;
+  height: 100px;
+}
+
+footer span {
+  font-size: 12px;
+}
+
+.col img {
+  float: left;
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-contacto {
+  text-align: left;
+}

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/media-queries.css" />
+  <link rel="icon" href="./img/favicon_Q.png" />
+  <title>Q Música</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" class="scrollspy-example">
+  <header class="fixed-top">
+    <!-- Navbar content -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img class = "logo" src="./img/logo.pexels.png" alt="Logo">
+        <a class="navbar-brand" href="#">QMusica</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Principal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Acerca de nosotros</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href=""
+                  data-bs-toggle="modal"
+                  data-bs-target="#registroModal"
+                >
+                <i class="fa fa-user-o" aria-hidden="true"></i>
+                  Registrarse
+                </a>
+          </li>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href=""
+                  data-bs-toggle="modal"
+                  data-bs-target="#loginModal"
+                >
+                  <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                  Iniciar sesión
+                </a></li>
+
+                
+                
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- contenido principal  -->
+
+    <!-- portada  -->
+    <section id="inicio">
+      <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://indiehoy.com/wp-content/uploads/2021/10/lollapalooza-1200x900.jpg" class="d-block w-100" alt="Lollapalooza" />
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.filo.news/__export/1635433035403/sites/claro/img/2021/10/28/quilmes_rock_portada.jpg_375109765.jpg" class="d-block w-100" alt="Quilmes Rock" />
+          </div>
+          <div class="carousel-item">
+            <img src="https://entradas.quelapaseslindo.com.ar/wp-content/uploads/movistar-arena-buenos-aires.jpg" class="d-block w-100" alt="Movistar Arena" />
+          </div>
+
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- info  -->
+    <div class="container">
+      <div class="wrap">
+        <div class="box">
+          <div class="img">
+          <h1>Acerca de Nosotros.</h1>
+          <h1>¿Quienes somos?</h1>
+          <!-- <div class="img">
+            <img src="./img/14.jpeg" alt="">
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+    <main>
+      <br />
+      <h1>Que hacemos en QMusica?</h1>
+      <br />
+      <p>
+        Somos un blog argentino que se propone recomendar música nueva. Nos
+        dedicamos a escuchar música que se publica todos los meses en el ámbito
+        nacional e internacional, para luego hacer una selección de álbumes,
+        videos y canciones que consideramos destacados.
+      </p>
+      <br />
+      <p>
+        A partir de nuestra escucha atenta, todos los meses te compartimos en
+        nuestras secciones:
+      </p>
+      <br />
+      <ul class="listas">
+        <li>Las canciones mas escuchadas del genero urbano</li>
+        <br />
+        <li>Los mejores videoclips del momento</li>
+        <br />
+        <li>Las nuevas bandas y solistas que estan empezando a sonar</li>
+        <br />
+        <li>Info sobre los proximos recitale en Argentina y el mundo</li>
+        <br />
+        <li>Las mejores fotos y videos de tus bandas favoritas</li>
+      </ul>
+      <br />
+      <p>
+        Nuestro proyecto, libre y gratuito, tiene como objetivo principal
+        difundir y recomendar nueva música, pero también poner el foco en
+        generar oportunidades para aquellos artistas que viven de la música.
+      </p>
+      <br />
+
+      <div class="contenedor">
+        <div class="card2" style="width: 18rem">
+          <img src="./img/27.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h2 class="card-title">Agos</h2>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div class="card2" style="width: 18rem">
+          <img src="./img/28.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h2 class="card-title">Agos</h2>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div class="card2" style="width: 18rem">
+          <img src="./img/29.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h2 class="card-title">Agos</h2>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        
+        <div class="card2" style="width: 18rem">
+          <img src="./img/30.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h2 class="card-title">Vero</h2>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    <!-- whatsapp  -->
+    <div class="whatsapp">
+      <a href="https://wa.me/549381512902" target="_blank">
+        <img src="./img/whatsapp_logo.png" alt="whatsapp" />
+      </a>
+    </div>
+  </main>
+<!-- Modal para iniciar sesion-->
+<div
+class="modal fade"
+id="loginModal"
+tabindex="-1"
+aria-labelledby="loginModalLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="loginModalLabel">Inicio de Sesión</h5>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body">
+      <!--formulario-->
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Correo Electrónico</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Contraseña</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            required
+          />
+        </div>
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href=""
+              data-bs-toggle="modal"
+              data-bs-target="#recuperarContraseñaModal"
+            >
+              Recuperar contraseña
+            </a>
+          </li>
+        </ul>
+
+        <a
+          href="./404.html"
+          class="btn btn-primary btn-lg"
+          tabindex="-1"
+          role="button"
+          aria-disabled="true"
+          >Iniciar Sesion</a
+        >
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--modal para recuperar contraseña-->
+<div
+class="modal fade"
+id="recuperarContraseñaModal"
+tabindex="-1"
+aria-labelledby="recuperarContraseñaLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="recuperarContraseñaLabel">
+        Recuperar Contraseña
+      </h5>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body">
+      <!--formulario-->
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Correo Electrónico</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            required
+          />
+        </div>
+        <a
+          href="./404.html"
+          class="btn btn-primary btn-lg"
+          tabindex="-1"
+          role="button"
+          aria-disabled="true"
+          >Enviar</a
+        >
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Modal para registrarse-->
+<div
+class="modal fade"
+id="registroModal"
+tabindex="-1"
+aria-labelledby="registroModalLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="registroModalLabel">Registrarse</h5>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body">
+      <!--formulario-->
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <br />
+            <img src="./img/registrarse.png" class="d-block w-100"
+            alt=registrarse" width="25" />
+          </div>
+          <div class="col-6">
+            <br />
+            <!--Apellido y nombre-->
+            <div class="col-mb-3">
+              <label for="validationDefault01" class="form-label"
+                >Nombre</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault01"
+                value=""
+                required
+              />
+            </div>
+            <div class="col-mb-3">
+              <label for="validationDefault02" class="form-label"
+                >Apellido</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                value=""
+                required
+              />
+            </div>
+            <br />
+            <!--Sexo-->
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="inputGroupSelect01"
+                >Sexo</label
+              >
+              <select class="form-select" id="inputGroupSelect01">
+                <option selected>Seleccione</option>
+                <option value="1">Hombre</option>
+                <option value="2">Mujer</option>
+                <option value="3">Otro</option>
+              </select>
+            </div>
+
+            <!--correo electronico-->
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Correo Electrónico</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                required
+              />
+            </div>
+            <!--Contraseña-->
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Contraseña</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                required
+              />
+            </div>
+
+            <!--Repetir Contraseña-->
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Repetir Contraseña</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                required
+              />
+            </div>
+
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="invalidCheck"
+                  required
+                />
+                <label class="form-check-label" for="invalidCheck">
+                  Acepto los terminos y condiciones.
+                </label>
+                <div class="invalid-feedback">
+                  Debe aceptar los terminos y condiciones para continuar.
+                </div>
+              </div>
+            </div>
+            <br />
+            <a href="https://www.facebook.com/"
+              ><i
+                class="fa fa-facebook-official fa-1x"
+                aria-hidden="true"
+              ></i>
+              Accede con Facebook</a
+            >
+            <br />
+            <a href="https://www.gmail.com/"
+              ><i class="fa fa-google fa-1x" aria-hidden="true"></i>
+              Accede con Gmail</a
+            >
+
+            <div class="col-12">
+              <a
+                href="./404.html"
+                class="btn btn-primary btn-lg"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Registrarse</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    <footer class="bg-light text-dark" style="background-color: rgba(235, 228, 235, 0.521) !important; color: rgb(3, 3, 3) !important">
+      <!-- Pié de página  -->
+      <div class="container pt-3">
+        <div class="row px-3 text-center">
+          <div class="col"><img src="img/logo.pexels.png" style="width: 70px; height: 70px;" /></div>
+          <div class="col">
+        <div class="row px-3 mt-2">
+          <div class="col-4 col-md-12 text-center mb-3">
+            <span>Seguinos en</span>
+          </div>
+          <div class="col text-center">
+            <span><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></span>
+          </div>
+          <div class="col text-center">
+            <span><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></span>
+          </div>
+          <div class="col text-center">
+            <span
+              ><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i
+            ></span>
+          </div>
+          <div class="col text-center">
+            <span
+              ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="col"><b>Q Musica.. un canal hecho para vos</b>
+      </div>
+    </div>
+  </footer>
+
+ 
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB"
+    crossorigin="anonymous"></script>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://use.fontawesome.com/c2813ccf5b.js"></script>
+
+  <script>
+    $(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+          $(".navscroll").addClass("bg-light");
+        } else {
+          $(".navscroll").removeClass("bg-light");
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
